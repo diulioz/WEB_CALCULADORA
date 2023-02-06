@@ -7,7 +7,7 @@ def inicio(request):
     str = """<h1>Aplicación Calculadora</h1> <h3>DAVID CRIOLLO</h3><h3>VANESSA GUSTIN</h3> <h3>JUAN CAMILO INSUASTY</h3> <h3>COMO USAR: </h3>
     <h3>FORMA 1: Después de la direccón y puerto del servidor escribir 'calculadora/operacion/operador1/operador2, donde operación pueder ser: </h3>
     <h3>sumar     restar    multiplicar   dividir</h3>
-    <h3>EJEMPLO: 'http://127.0.0.1:8000/calculadora/suma/2/3 </h3>
+    <h3>EJEMPLO: 'http://127.0.0.1:8000/calculadora/sumar/2/3 </h3>
     <h3>FORMA 2: Después de la direccón y puerto del servidor escribir 'calculadora/calcular/letra/operador1/operador2, donde letra puede ser: </h3>
     <h3>s: suma     r: resta    m: multiplicación   d: división</h3>
     <h3>EJEMPLO: 'http://127.0.0.1:8000/calculadora/calcular/d/100/20 </h3>"""
